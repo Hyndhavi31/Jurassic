@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#title {
+  background-color: green;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+  margin: 0px;
+  padding: 0px;
+}
+#poster {
+  height: 250px;
+  border-radius: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+#intro{
+    font-size: 25px;
+    line-height: 38px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+#img2{
+    height: 300px;
+    padding: 10px;
+}
+.container{
+    background: linear-gradient(#e66465, #9198e5);
+    display: flex;
+    justify-content: center;
+}
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.left-para{
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 15px;
+}
+#bg-img{
+    height: 200px;
+    width: 200px;
+    background-image: url(./images/image1.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 30px;
+}
